@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-firestore.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-analytics.js"></script>
+<script src="dbconnection.js"> </script>
+<script src="jquery.js"> </script>
+<script src="app.js"> 
+</script>
+    <title> Todo Application </title>
+
+</head>
+<body>
+<Input type="button" onclick="getByName('Japan')" value="For Japan"></Input>
+<Input type="button" onclick="getByName('USA')" value="For USA"></Input>
+<Input type="button" onclick="getByName('')" value="For Rest"></Input>
+<p id="p1"></p>
+<p id="p2"></p>
+
+</body>
+</html>
